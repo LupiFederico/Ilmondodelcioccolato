@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="it">
+<head> <!-- head contiene metadati: css e description(cosa sta sotto il motore) --> 
+<title>Il Mondo del Cioccolato </title>
+<meta charset="utf-8" />
+<meta name="author" content"Cioccolato"/> 
+<meta name="description" content"Vuoi sapere di più sul Cioccolato? Benvenuti nel mondo del cioccolato!"/> 
+<meta name="keywords" content"Cioccolato,Storia del cioccolato,modica,cioccolato di modica,cacao,fava di cacao,zucchero,latte"/> 
+<link rel="stylesheet" href="stile1.css"/>
+<link rel="stylesheet" href="mobile.css" media="screen and (max-width:1480px)"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body><!-- Il sito vero e proprio -->
+<header><!-- sezioni del sito dove scrivere -->
+<h1 id="titolo1">IL MONDO DEL CIOCCOLATO</h1>
+<hr>
+<nav class="nav">
+   <ul>
+    <li class="current"><a href="paginacioccolato1.html">Home</a></li>
+	<li><a href="paginacioccolato2.html">La storia del cioccolato</a></li>
+	<li><a href="paginacioccolato3.html">Dalla pianta al cioccolato</a></li>
+	<li><a href="paginacioccolato4.html">Latte</a></li>
+	<li><a href="paginacioccolato5.html">Modica</a></li>
+   </ul>
+ </nav>
+<hr>
+</header>
+<!-- Qui c'è la parte content -->
+<main>
+<article class="carsx">
+<h2>Se vuoi contattarmi scrivi qui sotto!</h2>
+<form action="dati.php" method="post">
+<p> Le tue domande: </p><textarea name="text" rows="10" cols="40"></textarea>
+<p> La tua mail: </p>
+<input name="email" type="email">
+<input type="submit" value="Invia"> 
+<h3><a href="mailto:f.lupi15@studenti.it">Oppure contattami qui</a></h3></article>
+<img id="imgnone" class="imgdx" src="immagini/cioccolatosfondo.jpg" alt="Cioccolato">
+</main>
+<footer> <!-- sezione finale del sito-->
+<form method="post">
+<h3><a href="paginacioccolato6.html"><strong>Contatti</strong></a></h3>
+<div id="copyright">&copy;copyright Lupi Federico</div>
+<p>This work is licensed under a<a href="http://creativecommons.org/licenses/by-sa/3.0/it/" rel="copyright"> Creative Commons License </a></p>
+</footer>
+</body>
+</html>

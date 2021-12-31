@@ -1,0 +1,45 @@
+@media screen and (max-width:1080px){
+header{position:relative;}	
+.carsx, .cardx, .carcenter, .imgsx, .imgdx, .imgcenter{
+ display:block;
+ float:none;
+ margin:3% auto 3% auto;}
+.carsx, .cardx, .carcenter{
+ width: 80%;
+ font-size:150%;} 
+.imgsx, .imgdx{
+  width:50%;}
+  .imgcenter{
+  width:80%;}
+  #imgnone{display:none;}
+}
+	
+@media screen and (max-width:800px){
+ .nav {
+  position: relative;
+  min-height: 32px;
+  font-size:150%;}
+ .nav ul { 
+	width:100%;
+	position: absolute;
+	background: #404040;}
+ .nav li {
+	display: none; /* hide all <li> items */
+	margin:0;
+	padding:0;}
+ .nav .current {/* show only current <li> item */
+	display: block;}
+	.nav a {
+	display: block;
+	padding: 4px 4px 4px 30px;
+	text-align: left; text-align:center;}
+ .nav .current a {
+	background: none;
+	color: white;}
+	/* on nav hover */
+ .nav ul:hover li {
+	display: block;
+	margin-bottom:2%;	}
+ .nav ul:hover .current {
+	background: #404040;
+   }}
